@@ -1,6 +1,6 @@
 {
   "name": "react-native-image-blur-loading",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Progressive Image Loading with React Native",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/katanyajati/react-native-image-blur-loading.git"
+    "url": "git+https://github.com/vuongductuanktmt/react-native-image-blur-loading.git"
   },
   "keywords": [
     "react-native",
