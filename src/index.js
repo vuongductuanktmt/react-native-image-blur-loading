@@ -22,12 +22,14 @@ export default class ImageBlurLoading extends Component {
     await this.setState({ isLoading: false })
     Animated.timing(thumbnailAnim, {
       toValue: 1,
+      useNativeDriver: false
     }).start()
   }
   onImageLoad = () => {
     let { imgAnim } = this.state
     Animated.timing(imgAnim, {
       toValue: 1,
+      useNativeDriver: false
     }).start()
     this.props.onLoad()
   }
